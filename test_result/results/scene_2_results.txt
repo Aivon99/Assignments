@@ -1,0 +1,2 @@
+Book 17 - 1 instance(s) found:
+  Instance 1 {top_left: (284, 25), top_right: (318, 25), bottom_left: (283, 504), bottom_right: (318, 504), area: 17280px}

@@ -1,0 +1,153 @@
+{
+  "total_scenes": 29,
+  "total_detections": 26,
+  "average_per_scene": 0.896551724137931,
+  "total_time": 128.10763788223267,
+  "results": [
+    {
+      "scene": "scene_0",
+      "detections": 0,
+      "time": 4.500768661499023
+    },
+    {
+      "scene": "scene_1",
+      "detections": 2,
+      "time": 4.188688039779663
+    },
+    {
+      "scene": "scene_10",
+      "detections": 1,
+      "time": 4.268097162246704
+    },
+    {
+      "scene": "scene_11",
+      "detections": 0,
+      "time": 4.3804450035095215
+    },
+    {
+      "scene": "scene_12",
+      "detections": 0,
+      "time": 4.8027732372283936
+    },
+    {
+      "scene": "scene_13",
+      "detections": 0,
+      "time": 4.381360054016113
+    },
+    {
+      "scene": "scene_14",
+      "detections": 0,
+      "time": 4.442501068115234
+    },
+    {
+      "scene": "scene_15",
+      "detections": 4,
+      "time": 4.367332696914673
+    },
+    {
+      "scene": "scene_16",
+      "detections": 2,
+      "time": 4.591709852218628
+    },
+    {
+      "scene": "scene_17",
+      "detections": 2,
+      "time": 4.397905111312866
+    },
+    {
+      "scene": "scene_18",
+      "detections": 2,
+      "time": 4.535271167755127
+    },
+    {
+      "scene": "scene_19",
+      "detections": 0,
+      "time": 4.504128932952881
+    },
+    {
+      "scene": "scene_2",
+      "detections": 1,
+      "time": 4.499505281448364
+    },
+    {
+      "scene": "scene_20",
+      "detections": 0,
+      "time": 4.670542240142822
+    },
+    {
+      "scene": "scene_21",
+      "detections": 0,
+      "time": 4.51093316078186
+    },
+    {
+      "scene": "scene_22",
+      "detections": 0,
+      "time": 4.340052127838135
+    },
+    {
+      "scene": "scene_23",
+      "detections": 1,
+      "time": 4.309611082077026
+    },
+    {
+      "scene": "scene_24",
+      "detections": 0,
+      "time": 4.375592947006226
+    },
+    {
+      "scene": "scene_25",
+      "detections": 0,
+      "time": 3.8670310974121094
+    },
+    {
+      "scene": "scene_26",
+      "detections": 3,
+      "time": 4.522843837738037
+    },
+    {
+      "scene": "scene_27",
+      "detections": 2,
+      "time": 4.305448055267334
+    },
+    {
+      "scene": "scene_28",
+      "detections": 1,
+      "time": 4.437643051147461
+    },
+    {
+      "scene": "scene_3",
+      "detections": 1,
+      "time": 4.343875169754028
+    },
+    {
+      "scene": "scene_4",
+      "detections": 0,
+      "time": 4.3484978675842285
+    },
+    {
+      "scene": "scene_5",
+      "detections": 1,
+      "time": 4.204963207244873
+    },
+    {
+      "scene": "scene_6",
+      "detections": 1,
+      "time": 4.88925576210022
+    },
+    {
+      "scene": "scene_7",
+      "detections": 2,
+      "time": 4.493117332458496
+    },
+    {
+      "scene": "scene_8",
+      "detections": 0,
+      "time": 4.087961912155151
+    },
+    {
+      "scene": "scene_9",
+      "detections": 0,
+      "time": 4.539782762527466
+    }
+  ]
+}

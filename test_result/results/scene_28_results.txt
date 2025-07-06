@@ -1,0 +1,2 @@
+Book 1 - 1 instance(s) found:
+  Instance 1 {top_left: (207, 247), top_right: (236, 248), bottom_left: (207, 555), bottom_right: (236, 555), area: 9270px}

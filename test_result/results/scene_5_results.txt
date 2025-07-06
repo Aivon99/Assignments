@@ -1,0 +1,2 @@
+Book 13 - 1 instance(s) found:
+  Instance 1 {top_left: (102, 69), top_right: (146, 70), bottom_left: (102, 573), bottom_right: (146, 573), area: 22725px}

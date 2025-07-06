@@ -1,0 +1,2 @@
+Book 19 - 1 instance(s) found:
+  Instance 1 {top_left: (332, 203), top_right: (360, 203), bottom_left: (332, 504), bottom_right: (360, 504), area: 8758px}
