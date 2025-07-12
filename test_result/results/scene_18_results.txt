@@ -1,4 +1,0 @@
-Book 8 - 1 instance(s) found:
-  Instance 1 {top_left: (291, 131), top_right: (318, 131), bottom_left: (291, 587), bottom_right: (318, 587), area: 12796px}
-Book 9 - 1 instance(s) found:
-  Instance 1 {top_left: (315, 130), top_right: (342, 131), bottom_left: (316, 587), bottom_right: (343, 586), area: 13282px}

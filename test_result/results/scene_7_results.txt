@@ -1,3 +1,0 @@
-Book 20 - 2 instance(s) found:
-  Instance 1 {top_left: (236, 173), top_right: (290, 173), bottom_left: (235, 556), bottom_right: (290, 556), area: 21504px}
-  Instance 2 {top_left: (279, 169), top_right: (335, 172), bottom_left: (274, 564), bottom_right: (331, 562), area: 24552px}

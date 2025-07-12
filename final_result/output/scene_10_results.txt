@@ -1,0 +1,6 @@
+Scene: scene_10
+Detected: 1 books
+Models: ['model_19']
+
+Detection details:
+  model_19: 1 instances

@@ -1,0 +1,16 @@
+# Book Detection Requirements
+# Python 3.7+ recommended
+
+# Core computer vision library
+opencv-python>=4.5.0
+
+# Numerical computing
+numpy>=1.19.0
+
+# For Jupyter notebook support (optional)
+jupyter>=1.0.0
+notebook>=6.0.0
+ipython>=7.0.0
+
+# Matplotlib for additional visualization (optional)
+matplotlib>=3.3.0

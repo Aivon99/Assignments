@@ -1,0 +1,5 @@
+Scene: scene_24
+Detected: 0 books
+Models: []
+
+Detection details:

@@ -1,3 +1,0 @@
-Book 18 - 2 instance(s) found:
-  Instance 1 {top_left: (441, 42), top_right: (490, 42), bottom_left: (441, 521), bottom_right: (490, 521), area: 24000px}
-  Instance 2 {top_left: (489, 40), top_right: (538, 38), bottom_left: (482, 510), bottom_right: (531, 520), area: 27531px}

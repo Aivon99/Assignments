@@ -1,0 +1,1018 @@
+{
+  "total_scenes": 29,
+  "correct": 19,
+  "accuracy": "65.5%",
+  "results": {
+    "scene_0": {
+      "scene": "scene_0",
+      "detected_count": 0,
+      "detected_models": [],
+      "detections": {},
+      "expected": [],
+      "match": true
+    },
+    "scene_1": {
+      "scene": "scene_1",
+      "detected_count": 2,
+      "detected_models": [
+        "model_18",
+        "model_18"
+      ],
+      "detections": {
+        "model_18": [
+          {
+            "top_left": [
+              441,
+              42
+            ],
+            "top_right": [
+              490,
+              42
+            ],
+            "bottom_right": [
+              490,
+              520
+            ],
+            "bottom_left": [
+              441,
+              521
+            ],
+            "area": 23554
+          },
+          {
+            "top_left": [
+              489,
+              39
+            ],
+            "top_right": [
+              537,
+              40
+            ],
+            "bottom_right": [
+              531,
+              516
+            ],
+            "bottom_left": [
+              483,
+              516
+            ],
+            "area": 22899
+          }
+        ]
+      },
+      "expected": [
+        "model_18",
+        "model_18"
+      ],
+      "match": true
+    },
+    "scene_2": {
+      "scene": "scene_2",
+      "detected_count": 1,
+      "detected_models": [
+        "model_17"
+      ],
+      "detections": {
+        "model_17": [
+          {
+            "top_left": [
+              283,
+              24
+            ],
+            "top_right": [
+              318,
+              26
+            ],
+            "bottom_right": [
+              318,
+              503
+            ],
+            "bottom_left": [
+              283,
+              504
+            ],
+            "area": 16629
+          }
+        ]
+      },
+      "expected": [
+        "model_17"
+      ],
+      "match": true
+    },
+    "scene_3": {
+      "scene": "scene_3",
+      "detected_count": 2,
+      "detected_models": [
+        "model_16",
+        "model_16"
+      ],
+      "detections": {
+        "model_16": [
+          {
+            "top_left": [
+              377,
+              209
+            ],
+            "top_right": [
+              426,
+              209
+            ],
+            "bottom_right": [
+              426,
+              542
+            ],
+            "bottom_left": [
+              377,
+              542
+            ],
+            "area": 16384
+          },
+          {
+            "top_left": [
+              496,
+              529
+            ],
+            "top_right": [
+              417,
+              710
+            ],
+            "bottom_right": [
+              461,
+              504
+            ],
+            "bottom_left": [
+              417,
+              562
+            ],
+            "area": 2603
+          }
+        ]
+      },
+      "expected": [
+        "model_16",
+        "model_16"
+      ],
+      "match": true
+    },
+    "scene_4": {
+      "scene": "scene_4",
+      "detected_count": 4,
+      "detected_models": [
+        "model_14",
+        "model_14",
+        "model_15",
+        "model_15"
+      ],
+      "detections": {
+        "model_14": [
+          {
+            "top_left": [
+              92,
+              1
+            ],
+            "top_right": [
+              135,
+              2
+            ],
+            "bottom_right": [
+              135,
+              617
+            ],
+            "bottom_left": [
+              92,
+              617
+            ],
+            "area": 26971
+          },
+          {
+            "top_left": [
+              57,
+              -1
+            ],
+            "top_right": [
+              97,
+              -4
+            ],
+            "bottom_right": [
+              102,
+              623
+            ],
+            "bottom_left": [
+              62,
+              615
+            ],
+            "area": 25000
+          }
+        ],
+        "model_15": [
+          {
+            "top_left": [
+              226,
+              48
+            ],
+            "top_right": [
+              268,
+              48
+            ],
+            "bottom_right": [
+              268,
+              609
+            ],
+            "bottom_left": [
+              226,
+              609
+            ],
+            "area": 23214
+          },
+          {
+            "top_left": [
+              191,
+              44
+            ],
+            "top_right": [
+              234,
+              44
+            ],
+            "bottom_right": [
+              239,
+              610
+            ],
+            "bottom_left": [
+              197,
+              608
+            ],
+            "area": 23907
+          }
+        ]
+      },
+      "expected": [
+        "model_14",
+        "model_14",
+        "model_15",
+        "model_15"
+      ],
+      "match": true
+    },
+    "scene_5": {
+      "scene": "scene_5",
+      "detected_count": 1,
+      "detected_models": [
+        "model_13"
+      ],
+      "detections": {
+        "model_13": [
+          {
+            "top_left": [
+              102,
+              69
+            ],
+            "top_right": [
+              146,
+              69
+            ],
+            "bottom_right": [
+              146,
+              573
+            ],
+            "bottom_left": [
+              102,
+              573
+            ],
+            "area": 21974
+          }
+        ]
+      },
+      "expected": [
+        "model_13"
+      ],
+      "match": true
+    },
+    "scene_6": {
+      "scene": "scene_6",
+      "detected_count": 1,
+      "detected_models": [
+        "model_21"
+      ],
+      "detections": {
+        "model_21": [
+          {
+            "top_left": [
+              217,
+              73
+            ],
+            "top_right": [
+              271,
+              73
+            ],
+            "bottom_right": [
+              271,
+              564
+            ],
+            "bottom_left": [
+              217,
+              564
+            ],
+            "area": 26480
+          }
+        ]
+      },
+      "expected": [
+        "model_21"
+      ],
+      "match": true
+    },
+    "scene_7": {
+      "scene": "scene_7",
+      "detected_count": 2,
+      "detected_models": [
+        "model_20",
+        "model_20"
+      ],
+      "detections": {
+        "model_20": [
+          {
+            "top_left": [
+              236,
+              173
+            ],
+            "top_right": [
+              290,
+              173
+            ],
+            "bottom_right": [
+              290,
+              555
+            ],
+            "bottom_left": [
+              236,
+              555
+            ],
+            "area": 20654
+          },
+          {
+            "top_left": [
+              279,
+              169
+            ],
+            "top_right": [
+              334,
+              170
+            ],
+            "bottom_right": [
+              331,
+              562
+            ],
+            "bottom_left": [
+              276,
+              559
+            ],
+            "area": 21536
+          }
+        ]
+      },
+      "expected": [
+        "model_20",
+        "model_20"
+      ],
+      "match": true
+    },
+    "scene_8": {
+      "scene": "scene_8",
+      "detected_count": 0,
+      "detected_models": [],
+      "detections": {},
+      "expected": [],
+      "match": true
+    },
+    "scene_9": {
+      "scene": "scene_9",
+      "detected_count": 0,
+      "detected_models": [],
+      "detections": {},
+      "expected": [
+        "model_19",
+        "model_19",
+        "model_19",
+        "model_19"
+      ],
+      "match": false
+    },
+    "scene_10": {
+      "scene": "scene_10",
+      "detected_count": 1,
+      "detected_models": [
+        "model_19"
+      ],
+      "detections": {
+        "model_19": [
+          {
+            "top_left": [
+              332,
+              204
+            ],
+            "top_right": [
+              360,
+              203
+            ],
+            "bottom_right": [
+              360,
+              504
+            ],
+            "bottom_left": [
+              332,
+              504
+            ],
+            "area": 8436
+          }
+        ]
+      },
+      "expected": [
+        "model_19",
+        "model_19",
+        "model_19",
+        "model_19"
+      ],
+      "match": false
+    },
+    "scene_11": {
+      "scene": "scene_11",
+      "detected_count": 0,
+      "detected_models": [],
+      "detections": {},
+      "expected": [],
+      "match": true
+    },
+    "scene_12": {
+      "scene": "scene_12",
+      "detected_count": 0,
+      "detected_models": [],
+      "detections": {},
+      "expected": [],
+      "match": true
+    },
+    "scene_13": {
+      "scene": "scene_13",
+      "detected_count": 0,
+      "detected_models": [],
+      "detections": {},
+      "expected": [],
+      "match": true
+    },
+    "scene_14": {
+      "scene": "scene_14",
+      "detected_count": 0,
+      "detected_models": [],
+      "detections": {},
+      "expected": [],
+      "match": true
+    },
+    "scene_15": {
+      "scene": "scene_15",
+      "detected_count": 2,
+      "detected_models": [
+        "model_11",
+        "model_12"
+      ],
+      "detections": {
+        "model_11": [
+          {
+            "top_left": [
+              257,
+              187
+            ],
+            "top_right": [
+              299,
+              187
+            ],
+            "bottom_right": [
+              293,
+              536
+            ],
+            "bottom_left": [
+              251,
+              535
+            ],
+            "area": 14486
+          }
+        ],
+        "model_12": [
+          {
+            "top_left": [
+              500,
+              213
+            ],
+            "top_right": [
+              529,
+              216
+            ],
+            "bottom_right": [
+              524,
+              528
+            ],
+            "bottom_left": [
+              494,
+              528
+            ],
+            "area": 9227
+          }
+        ]
+      },
+      "expected": [
+        "model_11",
+        "model_11",
+        "model_12",
+        "model_12",
+        "model_12"
+      ],
+      "match": false
+    },
+    "scene_16": {
+      "scene": "scene_16",
+      "detected_count": 2,
+      "detected_models": [
+        "model_11",
+        "model_12"
+      ],
+      "detections": {
+        "model_11": [
+          {
+            "top_left": [
+              257,
+              187
+            ],
+            "top_right": [
+              299,
+              187
+            ],
+            "bottom_right": [
+              293,
+              536
+            ],
+            "bottom_left": [
+              251,
+              534
+            ],
+            "area": 14740
+          }
+        ],
+        "model_12": [
+          {
+            "top_left": [
+              500,
+              214
+            ],
+            "top_right": [
+              529,
+              216
+            ],
+            "bottom_right": [
+              524,
+              528
+            ],
+            "bottom_left": [
+              494,
+              527
+            ],
+            "area": 9265
+          }
+        ]
+      },
+      "expected": [
+        "model_11",
+        "model_11",
+        "model_12",
+        "model_12",
+        "model_12"
+      ],
+      "match": false
+    },
+    "scene_17": {
+      "scene": "scene_17",
+      "detected_count": 2,
+      "detected_models": [
+        "model_11",
+        "model_12"
+      ],
+      "detections": {
+        "model_11": [
+          {
+            "top_left": [
+              254,
+              187
+            ],
+            "top_right": [
+              296,
+              187
+            ],
+            "bottom_right": [
+              296,
+              536
+            ],
+            "bottom_left": [
+              254,
+              535
+            ],
+            "area": 14407
+          }
+        ],
+        "model_12": [
+          {
+            "top_left": [
+              497,
+              211
+            ],
+            "top_right": [
+              527,
+              210
+            ],
+            "bottom_right": [
+              527,
+              524
+            ],
+            "bottom_left": [
+              497,
+              524
+            ],
+            "area": 9338
+          }
+        ]
+      },
+      "expected": [
+        "model_11",
+        "model_11",
+        "model_12",
+        "model_12",
+        "model_12"
+      ],
+      "match": false
+    },
+    "scene_18": {
+      "scene": "scene_18",
+      "detected_count": 3,
+      "detected_models": [
+        "model_8",
+        "model_9",
+        "model_10"
+      ],
+      "detections": {
+        "model_8": [
+          {
+            "top_left": [
+              291,
+              131
+            ],
+            "top_right": [
+              318,
+              131
+            ],
+            "bottom_right": [
+              318,
+              587
+            ],
+            "bottom_left": [
+              291,
+              587
+            ],
+            "area": 12556
+          }
+        ],
+        "model_9": [
+          {
+            "top_left": [
+              315,
+              130
+            ],
+            "top_right": [
+              343,
+              130
+            ],
+            "bottom_right": [
+              343,
+              586
+            ],
+            "bottom_left": [
+              315,
+              587
+            ],
+            "area": 12621
+          }
+        ],
+        "model_10": [
+          {
+            "top_left": [
+              108,
+              38
+            ],
+            "top_right": [
+              136,
+              39
+            ],
+            "bottom_right": [
+              136,
+              585
+            ],
+            "bottom_left": [
+              108,
+              585
+            ],
+            "area": 15049
+          }
+        ]
+      },
+      "expected": [
+        "model_8",
+        "model_9",
+        "model_9",
+        "model_10",
+        "model_10",
+        "model_10"
+      ],
+      "match": false
+    },
+    "scene_19": {
+      "scene": "scene_19",
+      "detected_count": 3,
+      "detected_models": [
+        "model_6",
+        "model_7",
+        "model_7"
+      ],
+      "detections": {
+        "model_6": [
+          {
+            "top_left": [
+              385,
+              31
+            ],
+            "top_right": [
+              411,
+              32
+            ],
+            "bottom_right": [
+              411,
+              579
+            ],
+            "bottom_left": [
+              385,
+              579
+            ],
+            "area": 14442
+          }
+        ],
+        "model_7": [
+          {
+            "top_left": [
+              497,
+              40
+            ],
+            "top_right": [
+              533,
+              40
+            ],
+            "bottom_right": [
+              533,
+              587
+            ],
+            "bottom_left": [
+              497,
+              587
+            ],
+            "area": 20192
+          },
+          {
+            "top_left": [
+              270,
+              772
+            ],
+            "top_right": [
+              209,
+              645
+            ],
+            "bottom_right": [
+              255,
+              787
+            ],
+            "bottom_left": [
+              226,
+              740
+            ],
+            "area": 830
+          }
+        ]
+      },
+      "expected": [
+        "model_6",
+        "model_6",
+        "model_6",
+        "model_7",
+        "model_7"
+      ],
+      "match": false
+    },
+    "scene_20": {
+      "scene": "scene_20",
+      "detected_count": 0,
+      "detected_models": [],
+      "detections": {},
+      "expected": [],
+      "match": true
+    },
+    "scene_21": {
+      "scene": "scene_21",
+      "detected_count": 0,
+      "detected_models": [],
+      "detections": {},
+      "expected": [],
+      "match": true
+    },
+    "scene_22": {
+      "scene": "scene_22",
+      "detected_count": 0,
+      "detected_models": [],
+      "detections": {},
+      "expected": [],
+      "match": true
+    },
+    "scene_23": {
+      "scene": "scene_23",
+      "detected_count": 1,
+      "detected_models": [
+        "model_5"
+      ],
+      "detections": {
+        "model_5": [
+          {
+            "top_left": [
+              342,
+              149
+            ],
+            "top_right": [
+              391,
+              149
+            ],
+            "bottom_right": [
+              391,
+              572
+            ],
+            "bottom_left": [
+              342,
+              572
+            ],
+            "area": 20836
+          }
+        ]
+      },
+      "expected": [
+        "model_5"
+      ],
+      "match": true
+    },
+    "scene_24": {
+      "scene": "scene_24",
+      "detected_count": 0,
+      "detected_models": [],
+      "detections": {},
+      "expected": [],
+      "match": true
+    },
+    "scene_25": {
+      "scene": "scene_25",
+      "detected_count": 0,
+      "detected_models": [],
+      "detections": {},
+      "expected": [],
+      "match": true
+    },
+    "scene_26": {
+      "scene": "scene_26",
+      "detected_count": 1,
+      "detected_models": [
+        "model_0"
+      ],
+      "detections": {
+        "model_0": [
+          {
+            "top_left": [
+              210,
+              180
+            ],
+            "top_right": [
+              244,
+              180
+            ],
+            "bottom_right": [
+              244,
+              568
+            ],
+            "bottom_left": [
+              210,
+              568
+            ],
+            "area": 13155
+          }
+        ]
+      },
+      "expected": [
+        "model_4",
+        "model_0",
+        "model_0"
+      ],
+      "match": false
+    },
+    "scene_27": {
+      "scene": "scene_27",
+      "detected_count": 2,
+      "detected_models": [
+        "model_2",
+        "model_3"
+      ],
+      "detections": {
+        "model_2": [
+          {
+            "top_left": [
+              257,
+              146
+            ],
+            "top_right": [
+              302,
+              146
+            ],
+            "bottom_right": [
+              303,
+              563
+            ],
+            "bottom_left": [
+              257,
+              564
+            ],
+            "area": 18870
+          }
+        ],
+        "model_3": [
+          {
+            "top_left": [
+              416,
+              142
+            ],
+            "top_right": [
+              466,
+              143
+            ],
+            "bottom_right": [
+              449,
+              566
+            ],
+            "bottom_left": [
+              400,
+              567
+            ],
+            "area": 21065
+          }
+        ]
+      },
+      "expected": [
+        "model_2",
+        "model_2",
+        "model_3",
+        "model_3"
+      ],
+      "match": false
+    },
+    "scene_28": {
+      "scene": "scene_28",
+      "detected_count": 1,
+      "detected_models": [
+        "model_1"
+      ],
+      "detections": {
+        "model_1": [
+          {
+            "top_left": [
+              206,
+              247
+            ],
+            "top_right": [
+              236,
+              248
+            ],
+            "bottom_right": [
+              236,
+              554
+            ],
+            "bottom_left": [
+              206,
+              555
+            ],
+            "area": 8971
+          }
+        ]
+      },
+      "expected": [
+        "model_1",
+        "model_1"
+      ],
+      "match": false
+    }
+  }
+}

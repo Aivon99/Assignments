@@ -1,2 +1,0 @@
-Book 21 - 1 instance(s) found:
-  Instance 1 {top_left: (217, 73), top_right: (271, 73), bottom_left: (217, 564), bottom_right: (271, 564), area: 27060px}
