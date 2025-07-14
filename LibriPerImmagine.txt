@@ -1,0 +1,18 @@
+scene 21 
+	0 Books 
+scene 22 
+	0 books found
+scene 23
+	1 model-5 
+scene 24 
+	0 books found 
+scene 25
+	0 books found 
+scene 26 
+	1 model_4
+	2 model_0
+scene 27
+	2 model_2 (nota: 2 di dimensioni diverse)
+	2 model_3 (nota: 2 di dimensioni diverse)
+scene 28
+	2 model_1

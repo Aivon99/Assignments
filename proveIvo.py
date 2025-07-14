@@ -2,6 +2,54 @@ import cv2
 import numpy as np
 from typing import List, Tuple
 
+def medianCleaner(image):#To clean images from salt and pepper noise, but preserving sharp edges
+    return cv2.medianBlur(image, 3)
+
+def unsharp_mask(image, sigma=1.0, strength=1.5, threshold=0): #Method to sharpen edges 
+    """
+    Apply unsharp masking to an image
+    
+    Args:
+        image: Input image
+        sigma: Gaussian blur sigma (higher = more blur)
+        strength: Enhancement strength (higher = more sharpening)
+        threshold: Minimum difference threshold (optional)
+    """
+    # Step 1: Create blurred version
+    blurred = cv2.GaussianBlur(image, (0, 0), sigma)
+    
+    # Step 2: Calculate the mask (difference)
+    mask = cv2.subtract(image, blurred)
+    
+    # Step 3: Optional threshold
+    if threshold > 0:
+        mask = np.where(np.abs(mask) < threshold, 0, mask)
+    
+    # Step 4: Add mask back to original
+    sharpened = cv2.add(image, cv2.multiply(mask, strength))
+    
+    return sharpened
+
+def apply_log(image: np.ndarray, ksize: int = 5, sigma: float = 1.0) -> np.ndarray:
+    """
+    Apply Laplacian of Gaussian (LoG) to a grayscale image.
+
+    Parameters:
+        image (np.ndarray): Grayscale input image.
+        ksize (int): Kernel size for Gaussian blur (must be odd).
+        sigma (float): Standard deviation for Gaussian kernel.
+
+    Returns:
+        np.ndarray: Result of applying LoG (uint8 image).
+    """
+    if len(image.shape) != 2:
+        raise ValueError("Input must be a grayscale image")
+
+    blurred = cv2.GaussianBlur(image, (ksize, ksize), sigmaX=sigma)
+    laplacian = cv2.Laplacian(blurred, ddepth=cv2.CV_64F)
+    result = cv2.convertScaleAbs(laplacian)
+    return result
+
 def detect_book_rectangles_hough(shelf_image_path: str, reference_book_path: str, 
                                 output_path: str = "hough_detected.jpg") -> List[Tuple]:
     """
@@ -34,18 +82,21 @@ def detect_book_rectangles_hough(shelf_image_path: str, reference_book_path: str
     
     # Preprocessing for better edge detection
     blurred = cv2.GaussianBlur(shelf_gray, (3, 3), 0)
-    
+    blurred = medianCleaner(blurred)
+    blurred = unsharp_mask(blurred)
+    cv2.imwrite('blurred.jpg', blurred)
+
     # Enhance contrast using CLAHE
     clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
     enhanced = clahe.apply(blurred)
     
     # Edge detection
     edges = cv2.Canny(enhanced, 50, 150, apertureSize=3)
-    
+    cv2.imwrite('enhanced.jpg', blurred)
     # Morphological operations to connect broken edges
     kernel = np.ones((2,2), np.uint8)
     edges_cleaned = cv2.morphologyEx(edges, cv2.MORPH_CLOSE, kernel)
-    
+    '''    
     # Hough Line Detection
     lines = cv2.HoughLinesP(
         edges_cleaned,
@@ -55,7 +106,23 @@ def detect_book_rectangles_hough(shelf_image_path: str, reference_book_path: str
         minLineLength=ref_height//3,  # Minimum line length
         maxLineGap=10             # Maximum gap between line segments
     )
+    ''' 
     
+    img_LoG = apply_log(edges, 7, 8)
+    
+    cv2.imwrite('img_LoG.jpg', img_LoG)
+
+    lines = cv2.HoughLinesP(
+        img_LoG,
+        rho=1,                    # Distance resolution in pixels
+        theta=np.pi/180,          # Angle resolution in radians
+        threshold=30,             # Minimum votes for a line
+        minLineLength=ref_height//3,  # Minimum line length
+        maxLineGap=10             # Maximum gap between line segments
+    )
+    
+
+
     if lines is None:
         print("No lines detected")
         return []
